@@ -1,0 +1,24 @@
+[user]
+	name = Jewei Mak
+	email = jewei.mak@gmail.com
+[pull]
+	rebase = true
+[alias]
+	search = !git rev-list --all | xargs git grep -F
+	take = "checkout -b"
+    c = "checkout"
+    b = "branch"
+    s = "status -s -b --renames"
+    p = "pull"
+    clean = "clean -df"
+    rh = "reset head --hard"
+	l = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+    l2 = "log --pretty=oneline -n 20 --graph --abbrev-commit"
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[fetch]
+	prune = true
+[stash]
+	showPatch = true

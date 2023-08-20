@@ -1,0 +1,7 @@
+export PATH="/Users/jewei/.composer/vendor/bin/":$PATH
+
+export PATH="/opt/flutter/bin/":$PATH
+
+export PATH="/Users/jewei/Library/Application Support/Herd/bin/":$PATH
+
+export PATH="/opt/homebrew/Cellar/coreutils/9.3/libexec/gnubin/:$PATH"

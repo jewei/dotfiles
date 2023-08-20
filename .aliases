@@ -1,0 +1,19 @@
+# Aliases
+alias ls='ls --color'
+alias ll='ls -lhAF --group-directories-first --color'
+alias l='ls -lF  --color'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+alias git_work="git config user.email jewei.mak@femmily.com && git config user.signingkey E03AD79DD5D26EA6"
+alias git_home="git config user.email jewei.mak@gmail.com"
+alias docker-ps='docker ps --format '\''table {{.Names}}\t{{.Status}}\t{{.Ports}}'\'''
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+alias pps='open -na "PhpStorm.app" --args "$@"'

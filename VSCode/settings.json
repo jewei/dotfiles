@@ -7,8 +7,11 @@
   "editor.minimap.enabled": false,
   "editor.rulers": [80, 120],
   "extensions.ignoreRecommendations": true,
+  "gitlens.telemetry.enabled": false,
   "intelephense.telemetry.enabled": false,
   "laravel-pint.enable": true,
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
   "workbench.colorTheme": "Shades of Purple",
   "workbench.iconTheme": "material-icon-theme",
   "[php]": {

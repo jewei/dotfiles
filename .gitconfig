@@ -1,24 +1,27 @@
 [user]
-	name = Jewei Mak
-	email = jewei.mak@gmail.com
+    name = Jewei Mak
+    email = jewei.mak@gmail.com
+    signingkey = 9A1B3C3521B3DEB0
 [pull]
-	rebase = true
+    rebase = true
 [alias]
-	search = !git rev-list --all | xargs git grep -F
-	take = "checkout -b"
+    uncommit = reset --soft HEAD^
+    search = !git rev-list --all | xargs git grep -F
+    take = "checkout -b"
+    br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
     c = "checkout"
     b = "branch"
     s = "status -s -b --renames"
     p = "pull"
     clean = "clean -df"
     rh = "reset head --hard"
-	l = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+    l = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
     l2 = "log --pretty=oneline -n 20 --graph --abbrev-commit"
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [commit]
-	gpgsign = true
+    gpgsign = true
 [fetch]
-	prune = true
+    prune = true
 [stash]
-	showPatch = true
+    showPatch = true

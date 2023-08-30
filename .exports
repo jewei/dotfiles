@@ -1,10 +1,6 @@
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
-
 export GPG_TTY=$(tty)
+
+export NVM_DIR="$HOME/.nvm"
 
 export PHP_INI_SCAN_DIR="/Users/jewei/Library/Application Support/Herd/config/php/":$PHP_INI_SCAN_DIR
 

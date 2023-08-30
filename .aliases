@@ -15,5 +15,5 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 alias git_work="git config user.email jewei.mak@femmily.com && git config user.signingkey E03AD79DD5D26EA6"
 alias git_home="git config user.email jewei.mak@gmail.com"
 alias docker-ps='docker ps --format '\''table {{.Names}}\t{{.Status}}\t{{.Ports}}'\'''
-alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+alias sail='[ -f sail ] && sail || vendor/bin/sail'
 alias pps='open -na "PhpStorm.app" --args "$@"'

@@ -4,4 +4,4 @@ export PATH="/opt/flutter/bin/":$PATH
 
 export PATH="/Users/jewei/Library/Application Support/Herd/bin/":$PATH
 
-export PATH="/opt/homebrew/Cellar/coreutils/9.3/libexec/gnubin/:$PATH"
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"

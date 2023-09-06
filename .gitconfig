@@ -23,3 +23,5 @@
     prune = true
 [stash]
     showPatch = true
+[push]
+    autoSetupRemote = 1
